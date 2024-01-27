@@ -56,7 +56,7 @@ function Login() {
             <div>
               <button type="button">He olvidado mi Contraseña</button>
             </div>
-            <a href="http://localhost:3001/registrar">Registrarse</a>
+            <a href="http://localhost:3001/registrar">Registrarse.</a>
           </form>
         </div>
       </div>
