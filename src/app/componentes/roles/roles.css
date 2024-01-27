@@ -1,0 +1,51 @@
+.titulo-seccion {
+    font-size: var(--lg);
+    font-weight: bold;
+    color: #6a6a6a;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+.roles-container{
+    display: grid;
+}
+.roles {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+.rol {
+    align-self: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 100px);
+    grid-template-rows: repeat(auto-fill, 80px);
+    height: 90%;
+    background-color: #00000096;
+    color: #e6f1f1;
+    opacity: .5;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    border: solid 8px #439A97;
+    width: 60%;
+    justify-content: center;
+    box-sizing: border-box;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+.texto_credenciales {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.input-rol {
+    display: none;
+}
+.roles label:hover {
+    background: linear-gradient(to bottom right, #54BAB9, 35%, #E9DAC1);
+    color: 	#008080;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 2px 2px 13pxrgb(96, 231, 130);
+    border-width: 8px;
+}

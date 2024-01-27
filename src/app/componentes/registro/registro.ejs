@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/registro.css"  type="text/css" />
+    <link>
+    <title>Document</title>
+</head>
+<body>
+    <section class="container contenedor-login">
+        <div class="row mh-100 login">
+          <div class="col credenciales">
+            <img
+              class="container logo-candado"
+              src="https://i.imgur.com/DVEh1vC.png"
+              alt="logo-usuario"
+            />
+            <h5>Registro</h5>
+            <br />
+            <h6>Por favor introduzca sus credenciales para ingresar</h6>
+            <form class="form" action="registro" method='POST'>
+              <label for="user" >username</label>
+              <input type='text' name='user' required></input>
+              <label for="name" >fullname</label>
+              <input type='text' name='name' required></input>
+              <label for="rol" >rol</label>
+              <select name="rol" id="rol" >
+                <option value="admin">Administrador</option>
+                <option value="data entry">Otro</option>
+
+              </select>
+              <label for="pass" >password</label>
+              <input type='password' name='pass' required></input>
+  
+              <div>
+                <a href='http://localhost:3000/' class=''>cancel</a>
+                <input type='submit' value="Save"></input>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+</body>
+</html>

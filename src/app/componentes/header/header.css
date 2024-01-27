@@ -1,0 +1,13 @@
+.bloque-sede {
+    font-size:medium;
+    color: black;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 80px;
+}
+
+@media (max-width: 1024px) {
+    #cliente {
+        gap: 0;
+    }
+  }
